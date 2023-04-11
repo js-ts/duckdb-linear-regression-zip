@@ -1,1 +1,0 @@
-# duckdb-linear-regression-zip

@@ -1,0 +1,9 @@
+dbt_linreg_profile:
+  target: dev
+  outputs:
+   dev:
+     type: duckdb
+     path: dbt.duckdb
+   dev-memory:
+     type: duckdb
+     path: ":memory:"
